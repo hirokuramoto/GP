@@ -1,4 +1,4 @@
-!! データファイルの読み込み !!
+!! データファイルの読み込みと前処理 !!
 
 subroutine datain(n, design, object, x, y)
   implicit none

@@ -9,7 +9,7 @@ subroutine kernel_mat(n, design, object, x, y, kmat)
   real(8), intent(in)    :: y(n, object)
   real(8), intent(out)   :: kmat(n, n)
   real(8), parameter     :: tau = 4.49094037236823
-  real(8), parameter     :: sigma = 0.00000171465703130554
+  real(8), parameter     :: sigma = 1.71465703130554e-06
   real(8), parameter     :: eta = 0.902572144267483
   integer(4)  i, j, k       ! カウンタ
   integer(4)  row           ! 結果ファイルの行数カウンタ
